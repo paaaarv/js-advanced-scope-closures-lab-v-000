@@ -12,6 +12,13 @@ function produceDrivingRange(distance){
     else{
       return `${range} blocks out of range`
     }
-
   }
+}
+
+function produceTipCalculator(percent){
+  return function(total){
+    return total * percent
+  }
+
+  
 }
